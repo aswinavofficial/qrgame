@@ -6,7 +6,9 @@
 <script>
 var type= window.location.hash.substr(1);
 var qno = parseInt(type.substring(0,2));
-var ans = ["Agile","ML"];
+var ans = type.substring(2);
+
+var qns = ["Agile","ML"];
 
 if(ans== qns[qno])
 {
